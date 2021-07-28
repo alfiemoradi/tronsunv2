@@ -1,0 +1,9 @@
+[2021-07-22 11:24:22] local.ERROR: Command "ui" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"ui\" is not defined. at C:\\project\\tronsun v2\\tronsunV2\\vendor\\symfony\\console\\Application.php:682)
+[stacktrace]
+#0 C:\\project\\tronsun v2\\tronsunV2\\vendor\\symfony\\console\\Application.php(255): Symfony\\Component\\Console\\Application->find('ui')
+#1 C:\\project\\tronsun v2\\tronsunV2\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\project\\tronsun v2\\tronsunV2\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\project\\tronsun v2\\tronsunV2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\project\\tronsun v2\\tronsunV2\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
